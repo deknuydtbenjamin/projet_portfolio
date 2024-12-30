@@ -1,7 +1,12 @@
-import "./App.css";
+import { Outlet } from "react-router-dom";
+import { ThemeProvider } from "./context/ThemeContext";
 
 function App() {
-	return <></>;
+	return (
+		<ThemeProvider>
+			<Outlet />
+		</ThemeProvider>
+	);
 }
 
 export default App;
