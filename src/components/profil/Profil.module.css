@@ -1,0 +1,65 @@
+.photo {
+	height: 240px;
+	margin-right: 2em;
+	border-radius: 1em;
+	border: #050a16 2px solid;
+}
+
+.container {
+	border-top: #00364d solid 2px;
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 3em;
+
+	background-color: #050a16;
+	color: white;
+	font-size: large;
+}
+
+.profil {
+	display: flex;
+}
+
+.title {
+	font-size: 30px;
+	margin-bottom: 2em;
+}
+
+.text {
+	margin-top: 0.7em;
+}
+
+.containere {
+	width: auto;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 3em;
+	border-radius: 0.5rem;
+	gap: 2em;
+	background-color: #00364d;
+}
+.logolang {
+	padding: 1em;
+	color: #ffffff;
+	gap: 0.5em;
+}
+.logo {
+	height: 4em;
+}
+.titlelogo {
+	padding-top: 1em;
+	font-size: medium;
+}
+.test {
+	display: flex;
+	margin: 0 50px;
+	gap: 50px;
+}
