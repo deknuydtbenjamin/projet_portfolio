@@ -1,0 +1,67 @@
+.projet {
+	padding: 5em;
+	text-align: center;
+}
+.projet::before {
+	content: "";
+	display: block;
+	width: 70%;
+	border-top: #00364d 2px solid;
+	margin: 0 auto 20px;
+}
+
+.title {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 3em;
+	color: white;
+}
+
+.containerprojet {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	gap: 10px;
+	justify-items: center;
+}
+
+.card {
+	width: 100%;
+	max-width: 420px; /* Ensure all cards are the same size */
+	background-color: #00364d;
+	border-radius: 8px;
+	/* padding: 20px; */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.image {
+	width: 100%;
+	height: auto;
+	border-radius: 8px;
+}
+
+.cardTitle {
+	font-size: 1.25rem;
+	margin-top: 15px;
+	font-weight: bold;
+	color: white;
+	padding-bottom: 1em;
+}
+
+.link {
+	text-decoration: none;
+	color: #fff;
+	background-color: #007bff;
+	padding: 10px 15px;
+	border-radius: 4px;
+	font-weight: bold;
+	text-align: center;
+	display: inline-block;
+	transition: background-color 0.3s ease;
+}
+
+.link:hover {
+	background-color: #0056b3;
+}
