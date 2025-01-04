@@ -5,7 +5,7 @@
 .projet::before {
 	content: "";
 	display: block;
-	width: 70%;
+	width: 50%;
 	border-top: #00364d 2px solid;
 	margin: 0 auto 20px;
 }
