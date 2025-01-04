@@ -5,8 +5,14 @@
 	border: #050a16 2px solid;
 }
 
+.container::before {
+	content: "";
+	display: block;
+	width: 70%;
+	border-top: #00364d 2px solid;
+	margin: 0 auto 20px;
+}
 .container {
-	border-top: #00364d solid 2px;
 	width: 70%;
 	margin: 0 auto;
 	padding: 20px;
