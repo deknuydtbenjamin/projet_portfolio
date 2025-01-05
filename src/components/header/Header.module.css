@@ -60,9 +60,7 @@
 	background: yellow;
 	box-shadow: none;
 }
-.darkTheme .titlelogo {
-	color: black;
-}
+
 .darkTheme .li:hover {
 	color: #007bff;
 }
@@ -106,6 +104,7 @@
 	border-radius: 0.5rem;
 	gap: 2em;
 	background-color: #00364d;
+	flex-wrap: wrap;
 }
 .logolang {
 	padding: 1em;
@@ -118,4 +117,27 @@
 .titlelogo {
 	padding-top: 1em;
 	font-size: medium;
+}
+@media screen and (max-width: 1100px) {
+	.container {
+		width: fit-content;
+		gap: 1em;
+		padding: 10px;
+	}
+	.logo {
+		height: 2em;
+	}
+	.titlelogo {
+		padding-top: 0.7;
+		font-size: small;
+	}
+	.title {
+		font-size: 30px;
+	}
+	.titlebis {
+		font-size: 20px;
+	}
+	.list {
+		font-size: small;
+	}
 }

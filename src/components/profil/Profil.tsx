@@ -1,9 +1,10 @@
 import photo from "../../assets/image/benjamin.jpg";
 import style from "../profil/Profil.module.css";
-
+import { useTheme } from "../../context/ThemeContext";
 export default function Profil() {
+	const { theme } = useTheme();
 	return (
-		<section className={style.test}>
+		<section className={theme === "dark" ? style.darkTheme : style.lightTheme}>
 			<section id="apropos" className={style.container}>
 				<h3 className={style.title}>A Propos</h3>
 				<div className={style.profil}>
