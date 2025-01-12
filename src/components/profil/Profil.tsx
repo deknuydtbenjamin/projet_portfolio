@@ -1,6 +1,8 @@
 import photo from "../../assets/image/benjamin.jpg";
 import style from "../profil/Profil.module.css";
 import { useTheme } from "../../context/ThemeContext";
+import { NavLink } from "react-router-dom";
+
 export default function Profil() {
 	const { theme } = useTheme();
 	return (
@@ -25,6 +27,23 @@ export default function Profil() {
 							objectif est de mettre à profit mes connaissances théoriques en
 							situation réelle, c'est pourquoi je recherche activement une
 							alternance à partir de février 2024.
+						</p>
+						<p className={style.text}>
+							Pour toute information complémentaire ou pour échanger sur une
+							opportunité, n'hésitez pas à me contacter par{" "}
+							<a
+								href="mailto:deknuydtbenjamin@hotmail.fr"
+								className={style.lien}
+							>
+								email
+							</a>{" "}
+							ou via
+							<NavLink
+								to="https://www.linkedin.com/in/benjamin-deknuydt/"
+								className={style.lien}
+							>
+								LinkedIn.
+							</NavLink>
 						</p>
 					</div>
 				</div>

@@ -50,6 +50,10 @@
 .darkTheme .title {
 	color: black;
 }
+.lien {
+	text-decoration: none;
+	color: #00364d;
+}
 
 @media screen and (max-width: 860px) {
 	.profil {
