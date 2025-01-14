@@ -7,6 +7,7 @@ export type ProjetType = {
 
 import mibnews from "../../assets/image/mibnews.png";
 import trombi from "../../assets/image/trombinoscope.png";
+import movie from "../../assets/image/movieproject.png";
 
 export const projetlink: ProjetType[] = [
 	{
@@ -17,6 +18,12 @@ export const projetlink: ProjetType[] = [
 	},
 	{
 		id: 2,
+		lien: "https://film-project-one.vercel.app/",
+		image: movie,
+		title: "Movie Project",
+	},
+	{
+		id: 3,
 		lien: "/",
 		image: trombi,
 		title: "Trombinoscope",
