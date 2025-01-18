@@ -30,6 +30,7 @@ import logovite from "../../assets/image/Vitejs-logo.svg.png";
 import logotypescript from "../../assets/image/Typescript.png";
 import logofigma from "../../assets/image/figma.png";
 import logomysql from "../../assets/image/mysql-logo.webp";
+import logonode from "../../assets/image/nodejs.png";
 
 export type LogoLangType = {
 	id: number;
@@ -77,5 +78,10 @@ export const logoLang: LogoLangType[] = [
 		id: 8,
 		name: "MySQL",
 		logo: logomysql,
+	},
+	{
+		id: 9,
+		name: "NodeJs",
+		logo: logonode,
 	},
 ];
