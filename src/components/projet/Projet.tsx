@@ -9,18 +9,20 @@ export default function Projet() {
 		<section className={theme === "dark" ? style.darkTheme : style.lightTheme}>
 			<section className={style.projet} id="projets">
 				<h3 className={style.title}>Projets</h3>
-				<div className={style.containerprojet}>
+				<ul className={style.container}>
+					{/* <div className={style.containerprojet}> */}
 					{projetlink.map((pro: ProjetType) => (
-						<div key={pro.id} className={style.card}>
+						<li key={pro.id} className={style.li}>
 							<img src={pro.image} alt={pro.title} className={style.image} />
-							<h4 className={style.cardTitle}>
-								<a href={pro.lien} className={style.link}>
-									{pro.title}
+							<div className={style.content}>
+								<a href={pro.lien} className={style.span}>
+									<h3 className={style.cardTitle}>{pro.title}</h3>
 								</a>
-							</h4>
-						</div>
+							</div>
+						</li>
 					))}
-				</div>
+					{/* </div> */}
+				</ul>
 			</section>
 		</section>
 	);
