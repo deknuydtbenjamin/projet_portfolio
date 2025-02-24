@@ -9,6 +9,7 @@ export default function HomePage() {
 			<Header />
 			<Profil />
 			<Projet />
+
 			<Footer />
 		</ThemeProvider>
 	);

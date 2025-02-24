@@ -87,7 +87,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	height: 400px;
+	height: 200px;
 	gap: 1em;
 	transition: 0.3s;
 }
@@ -95,23 +95,21 @@
 .li {
 	position: relative;
 	overflow: hidden;
-	flex: 0 0 250px; /* Cette valeur pourrait être ajustée en fonction de la taille de vos éléments */
+	flex: 0 0 80px;
 	border-radius: 10px;
 	cursor: pointer;
-	border: 1px solid white;
-	transition: transform 0.3s ease; /* Ajoutez une transition pour le zoom de l'élément */
+	border: 1px solid white; /* Corrigé: il y avait un espace entre le 1 et px */
 }
 
 .image {
 	position: absolute;
-	object-fit: contain;
 	top: 50%;
 	left: 50%;
 	translate: -50% -50%;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	transition: transform 0.5s ease; /* Rend le zoom plus fluide */
+	transition: transform 0.3s ease; /* Ajouté pour animer le zoom */
 }
 
 .content {
@@ -129,7 +127,7 @@
 	);
 	opacity: 0;
 	visibility: hidden;
-	transition: opacity 0.3s ease, visibility 0s 0.3s;
+	transition: opacity 0.3s ease, visibility 0s 0.3s; /* Ajouté pour rendre visible à la fin de l'animation */
 }
 
 .container:hover {
@@ -148,20 +146,14 @@
 	transition: scale 0.3s ease, opacity 0.3s ease;
 }
 
-/* Appliquez un zoom à la fois sur l'image et le conteneur .li */
-.li:hover {
-	transform: scale(1.5);
-	z-index: 5; /* Ajustez ce facteur de zoom si nécessaire */
-}
-
 .li:hover .image {
-	transform: scale(1.2);
+	transform: scale(1.2); /* Agrandit l'image au survol */
 }
 
 .li:hover .content {
 	opacity: 1;
 	visibility: visible;
-	transition: opacity 0.3s ease, visibility 0s;
+	transition: opacity 0.3s ease, visibility 0s; /* Rendre le contenu visible au survol */
 }
 
 .li:hover .span {
