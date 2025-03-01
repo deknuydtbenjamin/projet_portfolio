@@ -8,6 +8,7 @@ export type ProjetType = {
 import mibnews from "../../assets/image/mibnews.png";
 import trombi from "../../assets/image/trombinoscope.png";
 import movie from "../../assets/image/movieproject.png";
+import greenshare from "../../assets/image/greenshare.png";
 
 export const projetlink: ProjetType[] = [
 	{
@@ -27,5 +28,11 @@ export const projetlink: ProjetType[] = [
 		lien: "/",
 		image: trombi,
 		title: "Trombinoscope",
+	},
+	{
+		id: 4,
+		lien: "/",
+		image: greenshare,
+		title: "GreenShare",
 	},
 ];
