@@ -18,6 +18,7 @@ export default function Projet() {
 								<a href={pro.lien} className={style.span}>
 									<h3 className={style.cardTitle}>{pro.title}</h3>
 								</a>
+								<p>{pro.description}</p>
 							</div>
 						</li>
 					))}
