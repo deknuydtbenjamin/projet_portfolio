@@ -25,12 +25,16 @@ export const projetlink: ProjetType[] = [
 		lien: "https://film-project-one.vercel.app/",
 		image: movie,
 		title: "Movie Project",
+		description:
+			"Movie est une application web dédiée aux films et séries, développée dans le cadre de ma formation, permettant aux utilisateurs de parcourir des films et series et de trier les contenus par type (film ou série)",
 	},
 	{
 		id: 3,
 		lien: "/",
 		image: trombi,
 		title: "Trombinoscope",
+		description:
+			"Trombinoscope interactif, développé dans le cadre de ma formation, permettant aux utilisateurs de consulter les profils des membres d'une équipe, avec photos, informations de contact et descriptions, une interface conviviale pour favoriser la collaboration et renforcer les liens au sein des groupes.",
 	},
 	{
 		id: 4,
