@@ -10,19 +10,19 @@ export default function Projet() {
 			<section className={style.projet} id="projets">
 				<h3 className={style.title}>Projets</h3>
 				<ul className={style.container}>
-					{/* <div className={style.containerprojet}> */}
 					{projetlink.map((pro: ProjetType) => (
 						<li key={pro.id} className={style.li}>
 							<img src={pro.image} alt={pro.title} className={style.image} />
-							<div className={style.content}>
+							<section className={style.card}>
 								<a href={pro.lien} className={style.span}>
 									<h3 className={style.cardTitle}>{pro.title}</h3>
 								</a>
-								<p>{pro.description}</p>
-							</div>
+								<div className={style.content}>
+									<p className={style.description}>{pro.description}</p>
+								</div>
+							</section>
 						</li>
 					))}
-					{/* </div> */}
 				</ul>
 			</section>
 		</section>
