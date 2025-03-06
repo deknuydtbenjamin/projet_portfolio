@@ -13,12 +13,14 @@ export default function Projet() {
 					{projetlink.map((pro: ProjetType) => (
 						<li key={pro.id} className={style.li}>
 							<img src={pro.image} alt={pro.title} className={style.image} />
-							<a href={pro.lien} className={style.span}>
-								<h3 className={style.cardTitle}>{pro.title}</h3>
-							</a>
-							<div className={style.content}>
-								<p>{pro.description}</p>
-							</div>
+							<section className={style.card}>
+								<a href={pro.lien} className={style.span}>
+									<h3 className={style.cardTitle}>{pro.title}</h3>
+								</a>
+								<div className={style.content}>
+									<p className={style.description}>{pro.description}</p>
+								</div>
+							</section>
 						</li>
 					))}
 				</ul>
