@@ -10,6 +10,7 @@ import mibnews from "../../assets/image/mibnews.png";
 import trombi from "../../assets/image/trombinoscope.png";
 import movie from "../../assets/image/movieproject.png";
 import greenshare from "../../assets/image/greenshare.png";
+import eatingnamnam from "../../assets/image/eating.png";
 
 export const projetlink: ProjetType[] = [
 	{
@@ -43,5 +44,13 @@ export const projetlink: ProjetType[] = [
 		title: "GreenShare",
 		description:
 			"GreenShare est une plateforme de partage de plantes, développée dans le cadre de ma formation, permettant aux utilisateurs de télécharger des photos de leurs plantes, ajouter des descriptions et des conseils de culture, ainsi que commenter les contributions des autres membres pour échanger des astuces et découvrir de nouvelles variétés.",
+	},
+	{
+		id: 5,
+		lien: "/",
+		image: eatingnamnam,
+		title: "Eating NamNam",
+		description:
+			"Eating Nam Nam est une application web développée dans le cadre de ma formation. Elle permet aux utilisateurs de créer, partager et découvrir des recettes culinaires. Les utilisateurs peuvent également ajouter des photos pour illustrer leurs créations et interagir avec les contributions d'autres membres. Le projet combine convivialité et simplicité pour rendre la cuisine accessible à tous.",
 	},
 ];
