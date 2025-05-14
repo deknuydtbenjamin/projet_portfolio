@@ -29,9 +29,7 @@ export default function Header() {
 			</nav>
 			<div className={style.div}>
 				<section className={style.hero}>
-					<h1 className={style.title}>
-						Benjamin <span className={style.lastname}>Deknuydt</span>
-					</h1>
+					<h1 className={style.title}>Benjamin Deknuydt</h1>
 					<h2 className={style.titlebis}>Developpeur Web</h2>
 				</section>
 				<section className={style.container}>
