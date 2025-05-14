@@ -50,9 +50,13 @@
 .darkTheme .title {
 	color: black;
 }
+.darkTheme .lien {
+	color: black;
+}
 .lien {
 	text-decoration: none;
-	color: #00364d;
+	/* color: #00364d; */
+	color: white;
 }
 
 @media screen and (max-width: 860px) {
