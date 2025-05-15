@@ -13,20 +13,19 @@ export default function Profil() {
 					<img src={photo} alt=" benjamin" className={style.photo} />
 					<div>
 						<p className={style.text}>
-							Bonjour, je m'appelle Benjamin Deknuydt, Je suis actuellement en
-							reconversion professionnelle et je me spécialise dans le
-							développement web. Passionné par l'informatique et les nouvelles
-							technologies, j'ai décidé de me lancer dans ce domaine afin de
-							combiner ma rigueur et ma créativité pour résoudre des problèmes
-							concrets.
+							Bonjour, je m'appelle Benjamin Deknuydt, et je suis en
+							reconversion professionnelle, spécialisé dans le développement
+							web. Passionné par l'informatique et les nouvelles technologies,
+							j'ai choisi ce domaine pour allier rigueur et créativité dans la
+							résolution de problématiques concrètes.
 						</p>
 
 						<p className={style.text}>
-							Actuellement en formation Developpeur Web, je développe des
-							compétences solides en HTML, CSS, JavaScript, React etc. Mon
-							objectif est de mettre à profit mes connaissances théoriques en
-							situation réelle, c'est pourquoi je recherche activement une
-							alternance à partir de février 2024.
+							Récemment diplômé en tant que Développeur Web et Web Mobile
+							(DWWM), et également titulaire d’un diplôme de Concepteur Designer
+							UI, je possède une double compétence en design UX/UI et en
+							développement web full stack. Je maîtrise des technologies telles
+							que HTML, CSS, JavaScript, React, et bien d'autres.
 						</p>
 						<p className={style.text}>
 							Pour toute information complémentaire ou pour échanger sur une

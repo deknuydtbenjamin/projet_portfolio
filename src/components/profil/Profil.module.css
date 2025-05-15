@@ -55,10 +55,11 @@
 }
 .lien {
 	text-decoration: none;
-	/* color: #00364d; */
 	color: white;
 }
-
+.lien:hover {
+	color: #007bff;
+}
 @media screen and (max-width: 860px) {
 	.profil {
 		flex-direction: column;
