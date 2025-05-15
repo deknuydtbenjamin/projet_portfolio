@@ -22,12 +22,10 @@ export default function Profil() {
 
 						<p className={style.text}>
 							Récemment diplômé en tant que Développeur Web et Web Mobile
-							(DWWM), j'ai acquis des compétences solides en HTML, CSS,
-							JavaScript, React, et bien d'autres technologies. Mon objectif est
-							désormais de mettre ces compétences à profit dans un environnement
-							professionnel. Je suis donc activement à la recherche d'une
-							alternance ou d'une première expérience professionnelle pour
-							continuer à apprendre tout en contribuant à des projets concrets.
+							(DWWM), et également titulaire d’un diplôme de Concepteur Designer
+							UI, je possède une double compétence en design UX/UI et en
+							développement web full stack. Je maîtrise des technologies telles
+							que HTML, CSS, JavaScript, React, et bien d'autres.
 						</p>
 						<p className={style.text}>
 							Pour toute information complémentaire ou pour échanger sur une
