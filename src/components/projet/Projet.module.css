@@ -44,7 +44,7 @@
 	transition: 0.3s;
 	flex-wrap: wrap;
 	@media screen and (max-width: 1195px) {
-		height: 800px;
+		height: 950px;
 	}
 }
 
