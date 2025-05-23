@@ -15,8 +15,12 @@ type LangProviderProps = {
 export const LangProvider: React.FC<LangProviderProps> = ({ children }) => {
 	const [lang, setLang] = useState<"fr" | "en">("fr");
 
+	// useEffect(() => {
+	// 	document.body.className = lang;
+	// }, [lang]);
 	useEffect(() => {
-		document.body.className = lang;
+		document.body.classList.remove("fr", "en");
+		document.body.classList.add(lang);
 	}, [lang]);
 
 	const toggleLang = () => {
