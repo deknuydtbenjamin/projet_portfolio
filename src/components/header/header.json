@@ -1,0 +1,14 @@
+{
+	"fr": {
+		"about": "À propos",
+		"projects": "Projets",
+		"contact": "Contact",
+		"webDeveloper": "Développeur Web"
+	},
+	"en": {
+		"about": "About",
+		"projects": "Projects",
+		"contact": "Contact",
+		"webDeveloper": "Web Developer"
+	}
+}

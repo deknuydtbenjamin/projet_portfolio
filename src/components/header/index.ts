@@ -7,17 +7,17 @@ export type NavLinkType = {
 export const navlinks: NavLinkType[] = [
 	{
 		id: 1,
-		label: "A propos",
+		label: "nav.about",
 		link: "#apropos",
 	},
 	{
 		id: 2,
-		label: "Projets",
+		label: "nav.projects",
 		link: "#projets",
 	},
 	{
 		id: 3,
-		label: "Contact",
+		label: "nav.contact",
 		link: "#contact",
 	},
 ];
