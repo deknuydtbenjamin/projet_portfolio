@@ -22,9 +22,6 @@ export default function Header() {
 	const t = (key: TranslationKey): string => {
 		return typedTranslations[lang][key];
 	};
-	console.log("lang:", lang);
-	console.log("translations[lang]:", typedTranslations[lang]);
-	console.log("about translation:", t("about"));
 
 	return (
 		<header className={theme === "dark" ? style.darkTheme : style.lightTheme}>
