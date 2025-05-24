@@ -4,7 +4,7 @@ import Projet from "../components/projet/Projet";
 import Footer from "../components/footer/Footer";
 import { ThemeProvider } from "../context/ThemeContext";
 import { LangProvider } from "../context/LanguageContext";
-import Test from "../components/test";
+
 export default function HomePage() {
 	return (
 		<LangProvider>
@@ -12,7 +12,6 @@ export default function HomePage() {
 				<Header />
 				<Profil />
 				<Projet />
-				<Test />
 				<Footer />
 			</ThemeProvider>
 		</LangProvider>
