@@ -27,13 +27,6 @@ export default function Header() {
 		<header className={theme === "dark" ? style.darkTheme : style.lightTheme}>
 			<nav className={style.nav}>
 				<ul className={style.list}>
-					{/* {navlinks.map((elem: NavLinkType) => (
-						<li key={elem.id}>
-							<a href={elem.link} className={style.li}>
-								{t(elem.label as TranslationKey)}
-							</a>
-						</li>
-					))} */}
 					{navlinks.map((elem: NavLinkType) => {
 						const key = elem.label.replace("nav.", "") as TranslationKey;
 						return (
@@ -45,8 +38,18 @@ export default function Header() {
 						);
 					})}
 				</ul>
-				<button type="button" onClick={toggleLang}>
-					{lang === "en" ? "Français" : "English"}
+				<button
+					type="button"
+					onClick={toggleLang}
+					className={style.button}
+					aria-label={`Switch to ${lang === "en" ? "French" : "English"}`}
+				>
+					<span className={style.defaultEmoji} role="img" aria-hidden="true">
+						🌍
+					</span>
+					<span className={style.hoverEmoji} role="img" aria-hidden="true">
+						🌏
+					</span>
 				</button>
 				<label className={style.toggle}>
 					<input
