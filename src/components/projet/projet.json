@@ -1,0 +1,28 @@
+{
+	"fr": {
+		"project": "Projets",
+		"mibnews_title": "M.I.B News",
+		"mibnews_description": "M.I.B News est un projet réalisé dans le cadre de ma formation en développement web. L'objectif était de créer un site de visualisation d'articles de presse en utilisant l'API de The Guardian. Le projet met en œuvre des articles d'actualité en temps réel, permettant aux utilisateurs de consulter les derniers titres publiés sur cette source de renom. Ce projet avait également pour but de m'aider à renforcer mes compétences en React et en gestion d'API.",
+		"movie_title": "Movie Project",
+		"movie_description": "Movie est une application web dédiée aux films et séries, développée dans le cadre de ma formation, permettant aux utilisateurs de parcourir des films et séries et de trier les contenus par type (film ou série).",
+		"trombi_title": "Trombinoscope",
+		"trombi_description": "Trombinoscope interactif, développé dans le cadre de ma formation, permettant aux utilisateurs de consulter les profils des membres d'une équipe, avec photos, informations de contact et descriptions, une interface conviviale pour favoriser la collaboration et renforcer les liens au sein des groupes.",
+		"greenshare_title": "GreenShare",
+		"greenshare_description": "GreenShare est une plateforme de partage de plantes, développée dans le cadre de ma formation, permettant aux utilisateurs de télécharger des photos de leurs plantes, ajouter des descriptions et des conseils de culture, ainsi que commenter les contributions des autres membres pour échanger des astuces et découvrir de nouvelles variétés.",
+		"eating_title": "Eating NamNam",
+		"eating_description": "Eating Nam Nam est une application web développée dans le cadre de ma formation. Elle permet aux utilisateurs de créer, partager et découvrir des recettes culinaires. Les utilisateurs peuvent également ajouter des photos pour illustrer leurs créations et interagir avec les contributions d'autres membres. Le projet combine convivialité et simplicité pour rendre la cuisine accessible à tous."
+	},
+	"en": {
+		"project": "Projects",
+		"mibnews_title": "M.I.B News",
+		"mibnews_description": "M.I.B News is a project developed during my web development training. The goal was to create a news article viewing site using The Guardian's API. The project implements real-time news articles, allowing users to view the latest headlines published by this renowned source. This project also aimed to strengthen my skills in React and API management.",
+		"movie_title": "Movie Project",
+		"movie_description": "Movie is a web application dedicated to films and series, developed as part of my training, allowing users to browse films and series and filter content by type (film or series).",
+		"trombi_title": "Trombinoscope",
+		"trombi_description": "Interactive Trombinoscope developed during my training, enabling users to view team member profiles with photos, contact details, and descriptions. A user-friendly interface fosters collaboration and strengthens bonds within groups.",
+		"greenshare_title": "GreenShare",
+		"greenshare_description": "GreenShare is a plant-sharing platform developed during my training, allowing users to upload photos of their plants, add descriptions and cultivation tips, and comment on other members' contributions to exchange tips and discover new varieties.",
+		"eating_title": "Eating NamNam",
+		"eating_description": "Eating Nam Nam is a web application developed during my training. It allows users to create, share, and discover culinary recipes. Users can also add photos to illustrate their creations and interact with other members' contributions. The project combines conviviality and simplicity to make cooking accessible to everyone."
+	}
+}
