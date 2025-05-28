@@ -143,6 +143,9 @@
 	.list {
 		font-size: small;
 	}
+	.button {
+		margin-right: 0;
+	}
 }
 
 .button {
@@ -151,6 +154,7 @@
 	cursor: pointer;
 	font-size: 24px;
 	transition: transform 0.25s ease;
+	margin-right: 0.5em;
 }
 
 .button:hover {
@@ -171,4 +175,9 @@
 
 .button:hover .hoverEmoji {
 	display: block;
+}
+
+.btncontext {
+	display: flex;
+	align-items: center;
 }

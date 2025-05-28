@@ -38,27 +38,29 @@ export default function Header() {
 						);
 					})}
 				</ul>
-				<button
-					type="button"
-					onClick={toggleLang}
-					className={style.button}
-					aria-label={`Switch to ${lang === "en" ? "French" : "English"}`}
-				>
-					<span className={style.defaultEmoji} role="img" aria-hidden="true">
-						🌍
-					</span>
-					<span className={style.hoverEmoji} role="img" aria-hidden="true">
-						🌏
-					</span>
-				</button>
-				<label className={style.toggle}>
-					<input
-						type="checkbox"
-						onClick={toggleTheme}
-						className={style.checkbox}
-					/>
-					<div className={style.slider}> {theme === "dark"}</div>
-				</label>
+				<section className={style.btncontext}>
+					<button
+						type="button"
+						onClick={toggleLang}
+						className={style.button}
+						aria-label={`Switch to ${lang === "en" ? "French" : "English"}`}
+					>
+						<span className={style.defaultEmoji} role="img" aria-hidden="true">
+							🌍
+						</span>
+						<span className={style.hoverEmoji} role="img" aria-hidden="true">
+							🌏
+						</span>
+					</button>
+					<label className={style.toggle}>
+						<input
+							type="checkbox"
+							onClick={toggleTheme}
+							className={style.checkbox}
+						/>
+						<div className={style.slider}> {theme === "dark"}</div>
+					</label>
+				</section>
 			</nav>
 			<div className={style.div}>
 				<section className={style.hero}>
