@@ -6,6 +6,9 @@
 	padding-bottom: 1em;
 	background-color: #00364d;
 	border-bottom: #3a4d55 solid 1px;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
 }
 .li:hover {
 	color: #007bff;
@@ -140,6 +143,9 @@
 	.list {
 		font-size: small;
 	}
+	.button {
+		margin-right: 0;
+	}
 }
 
 .button {
@@ -148,6 +154,7 @@
 	cursor: pointer;
 	font-size: 24px;
 	transition: transform 0.25s ease;
+	margin-left: 0.5em;
 }
 
 .button:hover {
@@ -168,4 +175,10 @@
 
 .button:hover .hoverEmoji {
 	display: block;
+}
+
+.btncontext {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
 }
