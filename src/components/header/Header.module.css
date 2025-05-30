@@ -154,7 +154,7 @@
 	cursor: pointer;
 	font-size: 24px;
 	transition: transform 0.25s ease;
-	margin-right: 0.5em;
+	margin-left: 0.5em;
 }
 
 .button:hover {
@@ -179,5 +179,6 @@
 
 .btncontext {
 	display: flex;
+	flex-direction: row-reverse;
 	align-items: center;
 }
