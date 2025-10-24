@@ -11,6 +11,7 @@ import trombi from "../../assets/image/trombinoscope.png";
 import movie from "../../assets/image/movieproject.png";
 import greenshare from "../../assets/image/greenshare.png";
 import eatingnamnam from "../../assets/image/eating.png";
+import etiquette from "../../assets/image/etiquette.jpg"
 
 export const projetlink: ProjetType[] = [
 	{
@@ -47,5 +48,12 @@ export const projetlink: ProjetType[] = [
 		image: eatingnamnam,
 		title: "eating_title",
 		description: "eating_description",
+	},
+	{
+		id: 6,
+		lien: "/",
+		image: etiquette,
+		title: "etiquette",
+		description: "etiquette",
 	},
 ];
