@@ -53,7 +53,7 @@ export const projetlink: ProjetType[] = [
 		id: 6,
 		lien: "/",
 		image: etiquette,
-		title: "etiquette",
-		description: "etiquette",
+		title: "etiquette_title",
+		description: "etiquette_description",
 	},
 ];

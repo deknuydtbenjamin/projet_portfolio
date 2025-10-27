@@ -10,7 +10,9 @@
 		"greenshare_title": "GreenShare",
 		"greenshare_description": "GreenShare est une plateforme de partage de plantes, développée dans le cadre de ma formation, permettant aux utilisateurs de télécharger des photos de leurs plantes, ajouter des descriptions et des conseils de culture, ainsi que commenter les contributions des autres membres pour échanger des astuces et découvrir de nouvelles variétés.",
 		"eating_title": "Eating NamNam",
-		"eating_description": "Eating Nam Nam est une application web développée dans le cadre de ma formation. Elle permet aux utilisateurs de créer, partager et découvrir des recettes culinaires. Les utilisateurs peuvent également ajouter des photos pour illustrer leurs créations et interagir avec les contributions d'autres membres. Le projet combine convivialité et simplicité pour rendre la cuisine accessible à tous."
+		"eating_description": "Eating Nam Nam est une application web développée dans le cadre de ma formation. Elle permet aux utilisateurs de créer, partager et découvrir des recettes culinaires. Les utilisateurs peuvent également ajouter des photos pour illustrer leurs créations et interagir avec les contributions d'autres membres. Le projet combine convivialité et simplicité pour rendre la cuisine accessible à tous.",
+		"etiquette_title": "etiquette",
+		"etiquette_description": "etiquette jus de pomme "
 	},
 	"en": {
 		"project": "Projects",
