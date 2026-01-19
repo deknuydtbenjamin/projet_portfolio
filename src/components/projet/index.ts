@@ -49,11 +49,11 @@ export const projetlink: ProjetType[] = [
 		title: "eating_title",
 		description: "eating_description",
 	},
-	{
-		id: 6,
-		lien: "/",
-		image: etiquette,
-		title: "etiquette_title",
-		description: "etiquette_description",
-	},
+	// {
+	// 	id: 6,
+	// 	lien: "/",
+	// 	image: etiquette,
+	// 	title: "etiquette_title",
+	// 	description: "etiquette_description",
+	// },
 ];
